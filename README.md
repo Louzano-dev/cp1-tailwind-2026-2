@@ -101,17 +101,38 @@ Como já vimos em aula: importe o repositório na Vercel, deixe o framework em *
 
 ### `ENTREGA.md`
 
-Crie na raiz do repositório um arquivo `ENTREGA.md` com três coisas, em até seis linhas:
+Crie na raiz do repositório um arquivo `ENTREGA.md` com sua identificação e a declaração de IA:
 
 ```markdown
 RM: 570000
 Publicado em: https://seu-projeto.vercel.app
 Carta: 07 · Vértice
 
-IA: pedi variações de paleta e ajustei o contraste na mão.
+IA: pedi ao Claude três variações de hierarquia para o hero. Usei a segunda,
+mas troquei o text-4xl por text-5xl e refiz os breakpoints, porque o mobile
+tinha ficado grande demais. O contraste do CTA eu resolvi na mão.
 ```
 
-Usar IA é permitido. Não declarar, não é.
+#### O que é a declaração de IA
+
+**Usar IA é permitido neste checkpoint.** A declaração não é confissão e não tira ponto. Ela existe porque, na defesa de 10/09, eu vou perguntar sobre o seu código de qualquer jeito — a declaração só faz essa conversa começar honesta, em vez de você ter que fingir que digitou linha por linha.
+
+**O que escrever:** duas ou três frases dizendo **o que você pediu**, **o que veio** e **o que você mudou ou descartou**. É a última parte que interessa. Se a IA gerou algo e você aceitou inteiro sem entender, escreva isso também — é uma resposta legítima, e vale mais do que inventar um ajuste que não houve.
+
+**O que conta como usar IA:** Claude, ChatGPT, Gemini, Copilot completando classe no editor, IA do próprio navegador. Pedir para gerar classes, pedir paleta, pedir para explicar um erro, pedir para revisar acessibilidade — tudo conta. Não conta consultar a documentação do Tailwind, Stack Overflow ou os slides da aula.
+
+**Se você não usou IA**, escreva exatamente isso: `IA: não usei.` Uma linha resolve.
+
+Comparando:
+
+| | |
+|---|---|
+| **Serve** | "Pedi uma paleta a partir dos três hex da carta. Veio com `bg-amber-600` em tudo; troquei pelos tokens porque a regra 3 pede utilitário de token." |
+| **Serve** | "Gerei o grid com IA e não entendi direito o `col-span-2`. Deixei como veio." |
+| **Não serve** | "Usei IA para ajudar." |
+| **Não serve** | Colar quinze prompts sem dizer o que você fez com as respostas. |
+
+O `ENTREGA.md` incompleto vale **−5**. Declaração vaga entra aqui.
 
 ## Defesa
 
