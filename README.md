@@ -128,7 +128,7 @@ Comparando:
 | | |
 |---|---|
 | **Serve** | "Pedi uma paleta a partir dos três hex da carta. Veio com `bg-amber-600` em tudo; troquei pelos tokens porque a regra 3 pede utilitário de token." |
-| **Serve** | "Gerei o grid com IA e não entendi direito o `col-span-2`. Deixei como veio." |
+| **Serve** | "Gerei o grid da lista de dados com IA e não entendi direito o `sm:grid-cols-3`. Deixei como veio." |
 | **Não serve** | "Usei IA para ajudar." |
 | **Não serve** | Colar quinze prompts sem dizer o que você fez com as respostas. |
 
@@ -142,7 +142,7 @@ Na aula de **10/09**, logo na abertura, **60 segundos por pessoa**. Abro o seu c
 
 Quem fizer o checkpoint inteiro sem IA nenhuma pode reivindicar **+10 pontos**, escrevendo `IA: não usei.` no `ENTREGA.md`.
 
-Reivindicar não é de graça: você faz a **defesa estendida**, de 90 segundos e três perguntas em vez de duas. A terceira é sempre de modificação ao vivo — *"adicione agora um breakpoint aqui"*, *"troque o raio de todos os cards de uma vez"*, *"inverta as cores desse botão"*. Você mexe no código na hora, comigo olhando.
+Reivindicar não é de graça: você faz a **defesa estendida**, de 90 segundos e três perguntas em vez de duas. A terceira é sempre de modificação ao vivo — *"adicione agora um breakpoint aqui"*, *"troque o raio de todos os botões de uma vez"*, *"inverta as cores desse botão"*. Você mexe no código na hora, comigo olhando.
 
 **Como isso é pontuado**
 
