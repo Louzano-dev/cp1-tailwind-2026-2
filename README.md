@@ -1,7 +1,7 @@
 # Checkpoint 1 — Tailwind
 
 **Frontend Design · 2º semestre · Prof. Fábio Alencar**
-Data: **[PREENCHER]** · Janela: **08:00 às 09:40** · Individual
+Data: **quinta, 03/09/2026** · Janela: **08:00 às 09:40** · Individual
 
 ---
 
@@ -115,7 +115,7 @@ Usar IA é permitido. Não declarar, não é.
 
 ## Defesa
 
-Na aula seguinte, **60 segundos por pessoa**. Abro o seu código e faço duas perguntas sobre ele — onde está tal token, por que tal utilitário e não outro. **Vale 35 dos 100 pontos** e a nota não fecha antes disso. Quem falta, perde os 35.
+Na aula de **10/09**, logo na abertura, **60 segundos por pessoa**. Abro o seu código e faço duas perguntas sobre ele — onde está tal token, por que tal utilitário e não outro. **Vale 35 dos 100 pontos** e a nota não fecha antes disso. Quem falta, perde os 35.
 
 ---
 
