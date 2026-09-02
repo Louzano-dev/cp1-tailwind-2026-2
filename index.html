@@ -1,8 +1,11 @@
 <!doctype html>
-<html lang="pt-BR">
+<!-- color-scheme no <html> garante fundo claro mesmo em navegador no tema escuro.
+     O Preflight do Tailwind deixa o canvas transparente e o texto ficaria invisivel. -->
+<html lang="pt-BR" style="color-scheme: light">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light">
   <title>Evento — Checkpoint 1</title>
 
   <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
