@@ -1,7 +1,7 @@
 # Checkpoint 1 — Tailwind
 
 **Frontend Design · 2º semestre · Prof. Fábio Alencar**
-Data: **[PREENCHER]** · Janela: **08:00 às 09:15** · Individual
+Data: **[PREENCHER]** · Janela: **08:00 às 09:40** · Individual
 
 ---
 
@@ -23,6 +23,20 @@ O sorteio foi gravado e a tabela `RM → carta` está no Teams. Cada carta traz:
 - **uma regra de composição** obrigatória
 
 Adapte os textos ao seu evento. "Nome do Evento" precisa virar o nome da sua carta, e o tom da cópia precisa combinar com os três adjetivos.
+
+---
+
+## Como rodar
+
+**Não instale nada.** O Tailwind v4 já vem carregado como `<script>` no `index.html`:
+
+```html
+<script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4.3.3"></script>
+```
+
+Sem Vite, sem npm, sem build, sem terminal. Abra o arquivo no navegador (ou com o Live Server do VS Code), edite, salve, recarregue. O Tailwind recompila sozinho a cada classe nova.
+
+Não troque essa linha nem acrescente outra forma de carregar o Tailwind.
 
 ---
 
@@ -68,12 +82,36 @@ Texto sobre fundo precisa passar em WCAG AA (4.5:1 para texto normal). Se a pale
 
 ## Entrega
 
-Repositório próprio no GitHub, público, com o link postado no formulário: **[PREENCHER]**
+Tudo pelo **assignment do Teams**, com **dois links**:
+
+1. **Repositório no GitHub**, público, seu.
+2. **Projeto publicado na Vercel**, no ar e abrindo.
+
+O prazo do assignment é **09:40**. Depois disso ele fecha.
+
+### Publicação
+
+Como já vimos em aula: importe o repositório na Vercel, deixe o framework em *Other*, e publique. É um HTML estático, não precisa de configuração nenhuma. Publique **antes** de gastar os últimos minutos em detalhe visual — página bonita que não está no ar não conta.
+
+### Histórico
 
 - **Mínimo 3 pushes**, com pelo menos **30 minutos entre o primeiro e o último**. Um push só, no fim, vale penalidade.
 - O primeiro push é o clone ainda sem estilo. Comece por ele.
-- Nada de push depois das **09:15**. O que vale é o horário registrado pelo GitHub, não a data do commit na sua máquina.
-- Inclua um arquivo **`IA.md`** de até cinco linhas: o que você pediu para a IA e o que ajustou à mão. Usar IA é permitido. Não declarar, não é.
+- Nada de push depois das **09:40**. O que vale é o horário registrado pelo GitHub, não a data do commit na sua máquina.
+
+### `ENTREGA.md`
+
+Crie na raiz do repositório um arquivo `ENTREGA.md` com três coisas, em até seis linhas:
+
+```markdown
+RM: 570000
+Publicado em: https://seu-projeto.vercel.app
+Carta: 07 · Vértice
+
+IA: pedi variações de paleta e ajustei o contraste na mão.
+```
+
+Usar IA é permitido. Não declarar, não é.
 
 ## Defesa
 
@@ -95,17 +133,15 @@ Na aula seguinte, **60 segundos por pessoa**. Abro o seu código e faço duas pe
 
 | | |
 |---|---:|
+| Projeto não publicado, ou link publicado fora do ar | −15 |
 | Estrutura do `<body>` alterada | −20 |
 | Valor arbitrário ou CSS fora do `@theme` | −10 |
 | Push único | −20 |
-| Push fora da janela | −100 |
+| `ENTREGA.md` ausente ou incompleto | −5 |
+| Entrega fora da janela | −100 |
 
 ---
 
-## Como rodar
-
-Não precisa instalar nada. O Tailwind v4 já vem por CDN no `index.html`. Abra o arquivo no navegador (ou com o Live Server do VS Code) e recarregue a cada mudança.
-
 ## O que entregar, em uma linha
 
-Uma landing de evento que qualquer pessoa olha e diz de que marca ela é, construída só com utilitários do Tailwind sobre tokens que você declarou.
+Uma landing de evento no ar, que qualquer pessoa olha e diz de que marca ela é, construída só com utilitários do Tailwind sobre tokens que você declarou.
