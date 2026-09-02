@@ -1,0 +1,7 @@
+# Material do professor — nunca vai para o repo que os alunos clonam.
+gabarito/
+corrigir/
+entregas/
+
+.DS_Store
+node_modules/
