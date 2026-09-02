@@ -121,7 +121,7 @@ tinha ficado grande demais. O contraste do CTA eu resolvi na mão.
 
 **O que conta como usar IA:** Claude, ChatGPT, Gemini, Copilot completando classe no editor, IA do próprio navegador. Pedir para gerar classes, pedir paleta, pedir para explicar um erro, pedir para revisar acessibilidade — tudo conta. Não conta consultar a documentação do Tailwind, Stack Overflow ou os slides da aula.
 
-**Se você não usou IA**, escreva exatamente isso: `IA: não usei.` Uma linha resolve.
+**Se você não usou IA**, escreva exatamente isso: `IA: não usei.` Uma linha resolve — e leia a seção **Trilha sem IA** logo abaixo, porque essa linha vale pontos.
 
 Comparando:
 
@@ -138,6 +138,21 @@ O `ENTREGA.md` incompleto vale **−5**. Declaração vaga entra aqui.
 
 Na aula de **10/09**, logo na abertura, **60 segundos por pessoa**. Abro o seu código e faço duas perguntas sobre ele — onde está tal token, por que tal utilitário e não outro. **Vale 35 dos 100 pontos** e a nota não fecha antes disso. Quem falta, perde os 35.
 
+## Trilha sem IA
+
+Quem fizer o checkpoint inteiro sem IA nenhuma pode reivindicar **+10 pontos**, escrevendo `IA: não usei.` no `ENTREGA.md`.
+
+Reivindicar não é de graça: você faz a **defesa estendida**, de 90 segundos e três perguntas em vez de duas. A terceira é sempre de modificação ao vivo — *"adicione agora um breakpoint aqui"*, *"troque o raio de todos os cards de uma vez"*, *"inverta as cores desse botão"*. Você mexe no código na hora, comigo olhando.
+
+**Como isso é pontuado**
+
+- Sustentou a defesa estendida: **+10**, limitado a 100 no total.
+- Não sustentou: perde os 10, e só. A nota base não leva punição extra por ter tentado.
+
+Não existe penalidade formal para reivindicar e não sustentar — mas entenda o que acontece na prática: a pergunta de modificação ao vivo também conta para os 35 pontos da defesa normal. Quem escreveu o próprio código atravessa ela sem susto. Quem não escreveu sai pior nos 35 do que sairia se tivesse declarado o uso de IA e feito a defesa curta.
+
+Ou seja: a trilha compensa quem realmente fez sozinho, e cobra caro de quem só disse que fez. Escolha com honestidade — o custo de declarar o uso de IA continua sendo **zero**.
+
 ---
 
 ## Avaliação
@@ -149,6 +164,9 @@ Na aula de **10/09**, logo na abertura, **60 segundos por pessoa**. Abro o seu c
 | Flex/Grid e mobile-first, cumprindo a regra da sua carta | 20 |
 | Fidelidade à carta: cor, tipografia, raio e tom da cópia | 15 |
 | Estados (`hover`, `focus-visible`) e contraste AA | 10 |
+| **Bônus — trilha sem IA, sustentada na defesa estendida** | **+10** |
+
+Nota final limitada a 100.
 
 **Penalidades**
 
