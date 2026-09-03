@@ -1,0 +1,176 @@
+<!doctype html>
+<html lang="pt-BR" style="color-scheme: light">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Carta 18 · Voltagem — Arthur Bergami Lucas</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&family=Archivo:wght@400;600;800&display=swap">
+  <style>
+    :root { color-scheme: light; }
+    * { box-sizing: border-box; }
+    body { margin:0; background:#F4F2EF; color:#16151A; font-family:"Archivo",system-ui,sans-serif; font-size:15px; line-height:1.55; -webkit-font-smoothing:antialiased; }
+    .folha { max-width: 820px; margin:0 auto; padding:32px 24px 64px; display:flex; flex-direction:column; gap:28px; }
+    .topo { display:flex; flex-wrap:wrap; align-items:baseline; gap:6px 14px; border-bottom:2px solid #16151A; padding-bottom:14px; }
+    .eyebrow { font-family:"JetBrains Mono",monospace; font-size:11px; letter-spacing:.18em; text-transform:uppercase; color:#7A6F82; }
+    .topo h1 { margin:0; font-size:30px; font-weight:800; letter-spacing:-.02em; }
+    .topo .quem { margin-left:auto; font-family:"JetBrains Mono",monospace; font-size:12px; color:#7A6F82; }
+    h2 { margin:0 0 12px; font-size:12px; font-family:"JetBrains Mono",monospace; letter-spacing:.18em; text-transform:uppercase; color:#7A6F82; font-weight:500; }
+    .card { background:#fff; border:1px solid #DCD7D2; padding:20px; }
+    .adj { display:flex; flex-wrap:wrap; gap:6px; margin:0; padding:0; }
+    .adj li { list-style:none; font-family:"JetBrains Mono",monospace; font-size:11px; letter-spacing:.1em; text-transform:uppercase; border:1px solid #DCD7D2; padding:5px 11px; }
+    .linha { display:flex; gap:14px; align-items:center; padding:10px 0; border-bottom:1px solid #EEEAE6; }
+    .linha:last-child { border-bottom:none; }
+    .amostra { width:56px; height:56px; flex:none; border:1px solid #DCD7D2; }
+    .linha b { display:block; font-size:14px; text-transform:uppercase; letter-spacing:.1em; }
+    .linha code { font-family:"JetBrains Mono",monospace; font-size:12px; color:#16151A; }
+    .linha span { display:block; font-size:13px; color:#5C5560; }
+    .linha .util { display:inline-block; margin-top:2px; background:#16151A; color:#fff; padding:2px 7px; font-size:11px; }
+    .tipo-display { font-family:"Atkinson Hyperlegible", serif; font-size:44px; line-height:1.05; margin:6px 0 2px; }
+    .tipo-corpo { font-family:"Atkinson Hyperlegible", sans-serif; font-size:16px; margin:6px 0 2px; }
+    .raio-amostra { width:96px; height:56px; background:#005FCC; border-radius:8px; }
+    pre { margin:0; background:#16151A; color:#EDEAF2; font-family:"JetBrains Mono",monospace; font-size:12px; line-height:1.6; padding:16px; overflow-x:auto; }
+    .aviso { border-left:3px solid #005FCC; background:#fff; padding:14px 16px; }
+    .aviso b { display:block; font-family:"JetBrains Mono",monospace; font-size:11px; letter-spacing:.16em; text-transform:uppercase; margin-bottom:4px; }
+    .diagrama { display:flex; gap:18px; flex-wrap:wrap; font-family:"JetBrains Mono",monospace; font-size:11px; color:#5C5560; }
+    .diagrama div { display:flex; flex-direction:column; gap:5px; }
+    .caixas { display:flex; gap:4px; }
+    .caixas i, .empilha i { background:#005FCC; display:block; }
+    .caixas i { width:38px; height:22px; }
+    .empilha { display:flex; flex-direction:column; gap:4px; }
+    .empilha i { width:56px; height:14px; }
+  </style>
+</head>
+<body>
+  <div class="folha">
+
+    <div class="topo">
+      <span class="eyebrow">Checkpoint 1 · Carta 18 de 26</span>
+      <h1>Voltagem</h1>
+      <span class="quem">RM 570679 · Arthur Bergami Lucas</span>
+    </div>
+
+    <div>
+      <h2>O evento</h2>
+      <div class="card">
+        <p style="margin:0 0 12px">Feira de tecnologia assistiva</p>
+        <ul class="adj"><li>acessível</li><li>claro</li><li>confiante</li></ul>
+      </div>
+    </div>
+
+    <div>
+      <h2>Cores — o papel de cada uma já está definido</h2>
+      <div class="card">
+        
+      <div class="linha">
+        <span class="amostra" style="background:#FFFFFF"></span>
+        <div>
+          <b>Fundo</b>
+          <code>#FFFFFF</code>
+          <span>O fundo da página.</span>
+          <code class="util">bg-marca-50</code>
+        </div>
+      </div>
+        
+      <div class="linha">
+        <span class="amostra" style="background:#0B1A2B"></span>
+        <div>
+          <b>Tinta</b>
+          <code>#0B1A2B</code>
+          <span>Todo o texto, as bordas e o botão principal.</span>
+          <code class="util">text-marca-900</code>
+        </div>
+      </div>
+        
+      <div class="linha">
+        <span class="amostra" style="background:#005FCC"></span>
+        <div>
+          <b>Destaque</b>
+          <code>#005FCC</code>
+          <span>Um lugar só: o botão de ação e os rótulos pequenos.</span>
+          <code class="util">bg-marca-500</code>
+        </div>
+      </div>
+      </div>
+    </div>
+
+    <div>
+      <h2>Tipografia</h2>
+      <div class="card">
+        <div class="linha">
+          <div>
+            <b>Display</b>
+            <div class="tipo-display">Voltagem</div>
+            <code>Atkinson Hyperlegible</code> <code class="util">font-display</code>
+          </div>
+        </div>
+        <div class="linha">
+          <div>
+            <b>Corpo</b>
+            <div class="tipo-corpo">Uma noite acessível, claro e confiante, para quem atravessa a cidade.</div>
+            <code>Atkinson Hyperlegible</code> <code class="util">font-corpo</code>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div>
+      <h2>Raio de canto</h2>
+      <div class="card">
+        <div class="linha">
+          <span class="raio-amostra"></span>
+          <div>
+            <b>8px</b>
+            <span>Vale para os botões e para os blocos de dado do hero.</span>
+            <code class="util">rounded-card</code>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div>
+      <h2>Regra de composição — obrigatória</h2>
+      <div class="card">
+        <p style="margin:0 0 14px">Hero em duas colunas a partir de lg: o bloco de texto de um lado, a lista de dados do outro. Empilhado abaixo disso.</p>
+        <div class="diagrama">
+          <div><span>desktop</span><div class="caixas"><i></i><i></i><i></i></div></div>
+          <div><span>mobile</span><div class="empilha"><i></i><i></i><i></i></div></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="aviso"><b>Atenção</b>Uma família só, diferenciada por peso. É a carta em que acessibilidade é o próprio tema — capriche no foco.</div>
+
+    <div>
+      <h2>Cole no &lt;head&gt; — fontes</h2>
+      <pre>&lt;link rel="preconnect" href="https://fonts.googleapis.com"&gt;
+&lt;link rel="preconnect" href="https://fonts.gstatic.com" crossorigin&gt;
+&lt;link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&display=swap"&gt;</pre>
+    </div>
+
+    <div>
+      <h2>Cole no bloco @theme — tokens</h2>
+      <pre>@theme {
+      --color-marca-50:  #FFFFFF;
+      --color-marca-900: #0B1A2B;
+      --color-marca-500: #005FCC;
+
+      --font-display: "Atkinson Hyperlegible", sans-serif;
+      --font-corpo:   "Atkinson Hyperlegible", sans-serif;
+
+      --radius-card: 8px;
+    }</pre>
+    </div>
+
+    <div>
+      <h2>O que ainda é seu</h2>
+      <div class="card">
+        <p style="margin:0">A ficha entrega os valores. Hierarquia, escala tipográfica, espaçamento, os breakpoints e os estados de <code>hover</code> e <code>focus-visible</code> são decisão sua — e é isso que a rubrica mede. O <code>mockup.png</code> ao lado mostra um resultado possível, não o único.</p>
+      </div>
+    </div>
+
+  </div>
+</body>
+</html>
