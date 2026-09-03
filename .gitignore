@@ -3,6 +3,7 @@ gabarito/
 corrigir/
 entregas/
 sorteio.html
+gerar-referencias.mjs
 
 .DS_Store
 node_modules/

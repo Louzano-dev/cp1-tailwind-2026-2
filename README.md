@@ -13,14 +13,17 @@ A estrutura é a mesma para a turma inteira. O resultado tem que ser irreconhec�
 
 ## Sua carta
 
-O sorteio foi gravado e a tabela `RM → carta` está no Teams. Cada carta traz:
+O sorteio foi gravado. **Sua carta está em `referencias/<seu RM>-<seu nome>/`**, com três arquivos:
 
-- **nome e setor** do evento
-- **três adjetivos** de personalidade
-- **três hex** — você decide qual é fundo, qual é tinta e qual é destaque
-- **par tipográfico** (Google Fonts)
-- **raio de canto**
-- **uma regra de composição** obrigatória
+| | |
+|---|---|
+| `ficha.html` | a carta explicada: qual hex é fundo, qual é tinta, qual é destaque, as duas fontes renderizadas, o raio, a regra de composição, e os blocos de `<link>` e `@theme` prontos para colar |
+| `mockup.html` | uma página finalizada naquela marca, como referência visual |
+| `LEIA-ME.md` | o mesmo resumo em texto |
+
+Os `.png` ao lado são as mesmas coisas em imagem, para você olhar sem abrir o navegador.
+
+**O mockup é uma referência, não um gabarito.** Ele mostra um resultado possível. Você não precisa reproduzi-lo pixel a pixel, e não perde ponto por chegar num arranjo diferente — desde que a carta esteja lá e a regra de composição seja cumprida. Hierarquia, escala tipográfica, espaçamento e estados continuam sendo decisão sua, e é isso que a rubrica mede.
 
 Adapte os textos ao seu evento. "Nome do Evento" precisa virar o nome da sua carta, e o tom da cópia precisa combinar com os três adjetivos.
 
@@ -76,7 +79,7 @@ Comece pelo layout de celular e use `sm:` `md:` `lg:` para crescer. Largura fixa
 Todo link e todo botão precisa de `hover:` e de `focus-visible:`. O foco tem que ser visível sem depender de cor sozinha.
 
 **8. Contraste.**
-Texto sobre fundo precisa passar em WCAG AA (4.5:1 para texto normal). Se a paleta da sua carta não fecha o contraste, é você que resolve — escurecendo, clareando ou trocando qual hex faz qual papel.
+Texto sobre fundo precisa passar em WCAG AA (4.5:1 para texto normal). Quando a paleta da sua carta tem uma combinação que reprova, a `ficha.html` avisa num bloco **Atenção** e diz como contornar — em geral usando o destaque como campo, com a tinta por cima, em vez de como cor de texto.
 
 ---
 
