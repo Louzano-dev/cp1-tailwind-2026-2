@@ -16,5 +16,5 @@ Personalidade: bruto, quente, artesanal.
 
 **Atenção:** O destaque sobre o fundo dá 2,8:1 e reprova em AA. Use o destaque como campo, com a tinta por cima.
 
-Abra `ficha.html` para a carta explicada e `mockup.html` para a referência visual.
+Abra `ficha.html` para a carta explicada e `mockup.png` para a referência visual.
 Sorteio: semente `CP1-2026-2`.

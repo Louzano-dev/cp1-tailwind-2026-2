@@ -16,5 +16,5 @@ Personalidade: âmbar, denso, convivial.
 
 **Atenção:** Página escura. Alfa Slab One só tem um peso.
 
-Abra `ficha.html` para a carta explicada e `mockup.html` para a referência visual.
+Abra `ficha.html` para a carta explicada e `mockup.png` para a referência visual.
 Sorteio: semente `CP1-2026-2`.

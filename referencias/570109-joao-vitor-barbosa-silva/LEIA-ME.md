@@ -16,5 +16,5 @@ Personalidade: cromático, translúcido, experimental.
 
 **Atenção:** Página escura. O destaque dá 3,2:1 sobre o fundo — clareie ou use só em campo.
 
-Abra `ficha.html` para a carta explicada e `mockup.html` para a referência visual.
+Abra `ficha.html` para a carta explicada e `mockup.png` para a referência visual.
 Sorteio: semente `CP1-2026-2`.

@@ -13,17 +13,18 @@ A estrutura é a mesma para a turma inteira. O resultado tem que ser irreconhec�
 
 ## Sua carta
 
-O sorteio foi gravado. **Sua carta está em `referencias/<seu RM>-<seu nome>/`**, com três arquivos:
+O sorteio foi gravado. **Sua carta está em `referencias/<seu RM>-<seu nome>/`**:
 
 | | |
 |---|---|
 | `ficha.html` | a carta explicada: qual hex é fundo, qual é tinta, qual é destaque, as duas fontes renderizadas, o raio, a regra de composição, e os blocos de `<link>` e `@theme` prontos para colar |
-| `mockup.html` | uma página finalizada naquela marca, como referência visual |
-| `LEIA-ME.md` | o mesmo resumo em texto |
-
-Os `.png` ao lado são as mesmas coisas em imagem, para você olhar sem abrir o navegador.
+| `ficha.png` | a mesma ficha em imagem, para consultar sem abrir o navegador |
+| `mockup.png` | uma página finalizada naquela marca, como referência visual |
+| `LEIA-ME.md` | o resumo em texto |
 
 **O mockup é uma referência, não um gabarito.** Ele mostra um resultado possível. Você não precisa reproduzi-lo pixel a pixel, e não perde ponto por chegar num arranjo diferente — desde que a carta esteja lá e a regra de composição seja cumprida. Hierarquia, escala tipográfica, espaçamento e estados continuam sendo decisão sua, e é isso que a rubrica mede.
+
+Ele vem só como imagem, de propósito. As classes que produzem aquele resultado são o que está sendo avaliado — escrevê-las é a prova.
 
 Adapte os textos ao seu evento. "Nome do Evento" precisa virar o nome da sua carta, e o tom da cópia precisa combinar com os três adjetivos.
 

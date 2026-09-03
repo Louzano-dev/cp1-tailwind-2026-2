@@ -16,5 +16,5 @@ Personalidade: pesado, metálico, direto.
 
 **Atenção:** Página escura. O destaque dá 4,3:1 sobre o fundo — passa em título grande, não em texto pequeno.
 
-Abra `ficha.html` para a carta explicada e `mockup.html` para a referência visual.
+Abra `ficha.html` para a carta explicada e `mockup.png` para a referência visual.
 Sorteio: semente `CP1-2026-2`.

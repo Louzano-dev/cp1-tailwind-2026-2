@@ -16,5 +16,5 @@ Personalidade: acessível, claro, confiante.
 
 **Atenção:** Uma família só, diferenciada por peso. É a carta em que acessibilidade é o próprio tema — capriche no foco.
 
-Abra `ficha.html` para a carta explicada e `mockup.html` para a referência visual.
+Abra `ficha.html` para a carta explicada e `mockup.png` para a referência visual.
 Sorteio: semente `CP1-2026-2`.

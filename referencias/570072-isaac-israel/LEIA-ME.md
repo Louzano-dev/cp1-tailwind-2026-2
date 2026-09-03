@@ -16,5 +16,5 @@ Personalidade: mínimo, conversacional, claro.
 
 **Atenção:** O destaque sobre o fundo dá 3,5:1. Reserve para campo e título grande.
 
-Abra `ficha.html` para a carta explicada e `mockup.html` para a referência visual.
+Abra `ficha.html` para a carta explicada e `mockup.png` para a referência visual.
 Sorteio: semente `CP1-2026-2`.

@@ -16,5 +16,5 @@ Personalidade: etéreo, elegante, expansivo.
 
 **Atenção:** Página escura. Cormorant precisa de tamanho grande para não sumir.
 
-Abra `ficha.html` para a carta explicada e `mockup.html` para a referência visual.
+Abra `ficha.html` para a carta explicada e `mockup.png` para a referência visual.
 Sorteio: semente `CP1-2026-2`.

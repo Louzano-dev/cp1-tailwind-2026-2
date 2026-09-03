@@ -16,5 +16,5 @@ Personalidade: gráfico, contrastado, divertido.
 
 **Atenção:** Bangers é toda em caixa alta por desenho. Não force uppercase por cima.
 
-Abra `ficha.html` para a carta explicada e `mockup.html` para a referência visual.
+Abra `ficha.html` para a carta explicada e `mockup.png` para a referência visual.
 Sorteio: semente `CP1-2026-2`.

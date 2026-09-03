@@ -5,5 +5,9 @@ entregas/
 sorteio.html
 gerar-referencias.mjs
 
+# O mockup em HTML é a implementação pronta — copiável classe por classe.
+# Só o PNG vai para os alunos: mesma referência visual, sem o código.
+referencias/*/mockup.html
+
 .DS_Store
 node_modules/

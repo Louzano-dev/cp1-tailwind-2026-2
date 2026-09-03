@@ -16,5 +16,5 @@ Personalidade: pixelado, saturado, nostálgico.
 
 **Atenção:** Press Start 2P é enorme no mesmo tamanho de fonte. Comece pequeno e suba com cuidado.
 
-Abra `ficha.html` para a carta explicada e `mockup.html` para a referência visual.
+Abra `ficha.html` para a carta explicada e `mockup.png` para a referência visual.
 Sorteio: semente `CP1-2026-2`.

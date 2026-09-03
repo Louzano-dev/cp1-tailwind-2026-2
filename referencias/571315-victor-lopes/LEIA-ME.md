@@ -16,5 +16,5 @@ Personalidade: calmo, macio, respirado.
 
 **Atenção:** O destaque sobre o fundo dá 2,5:1 e reprova. Use como campo ou como borda, nunca como texto.
 
-Abra `ficha.html` para a carta explicada e `mockup.html` para a referência visual.
+Abra `ficha.html` para a carta explicada e `mockup.png` para a referência visual.
 Sorteio: semente `CP1-2026-2`.

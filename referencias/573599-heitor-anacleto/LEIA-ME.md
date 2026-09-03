@@ -14,5 +14,5 @@ Personalidade: sóbrio, editorial, silencioso.
 
 **Regra de composição:** A lista de dados do hero rola na horizontal no mobile e vira grid a partir de md.
 
-Abra `ficha.html` para a carta explicada e `mockup.html` para a referência visual.
+Abra `ficha.html` para a carta explicada e `mockup.png` para a referência visual.
 Sorteio: semente `CP1-2026-2`.

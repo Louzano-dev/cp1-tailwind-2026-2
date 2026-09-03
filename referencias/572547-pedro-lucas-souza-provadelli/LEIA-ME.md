@@ -14,5 +14,5 @@ Personalidade: trançado, tátil, paciente.
 
 **Regra de composição:** Rodapé em três colunas a partir de md; empilhado e centralizado no mobile.
 
-Abra `ficha.html` para a carta explicada e `mockup.html` para a referência visual.
+Abra `ficha.html` para a carta explicada e `mockup.png` para a referência visual.
 Sorteio: semente `CP1-2026-2`.

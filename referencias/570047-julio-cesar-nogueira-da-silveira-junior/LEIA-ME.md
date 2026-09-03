@@ -16,5 +16,5 @@ Personalidade: defumado, robusto, rústico.
 
 **Atenção:** Ultra só tem um peso e é muito pesada. Use só em título.
 
-Abra `ficha.html` para a carta explicada e `mockup.html` para a referência visual.
+Abra `ficha.html` para a carta explicada e `mockup.png` para a referência visual.
 Sorteio: semente `CP1-2026-2`.
